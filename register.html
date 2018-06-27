@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang="en-US">
+    <head>
+	    <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="script/script.js"></script>
+	    <title>Register</title>	
+	</head>
+	<body>
+	    <div class="grid-container">
+		
+		    <div class="register-body">
+			<form id="reg_form">
+			    <div class="site-logo">
+				    <image src="images/logo.jpg" alt="W3leassons">
+				</div>
+				<div class="logo-title">
+				    <h5>W3leassons - Material Design SignUp Form</h5>
+				</div>
+				<div class="form-container name-container">
+				    <i class="far fa-user"></i>
+				    <input type="text" id="reg_name" class="input-tags" 
+					required="required" placeholder="Username" title="Enter username">
+ 				</div>
+				<div class="form-container email-container">
+				    <i class="fas fa-envelope"></i>
+    			    <input type="email" id="reg_email" class="input-tags" 
+					required="required" placeholder="Email">
+				</div>
+				<div class="form-container password-container">
+				    <i class="fas fa-lock"></i>
+				    <input type="password" id="reg_pass" class="input-tags" 
+					required="required" placeholder="Password">
+					<i class="fas fa-check-circle password-tick"></i>
+					<i class="fas fa-eye view-password" id="view_password"></i>
+				</div>
+				<div class="form-container password-container">
+				    <i class="fas fa-lock"></i>
+				    <input type="password" id="con_reg_pass" class="input-tags" 
+					required="required" placeholder="Re-type password">
+					<i class="fas fa-check-circle password-tick"></i>
+					<i class="fas fa-eye view-password" id="view_confirm_password"></i>
+				</div>
+				<button type="submit" id="register_btn" class="btn-submit btn-disabled" disabled="disabled">Register Now</button>
+				<h5>Already have an account? <a href="#">Login</a></h5>
+			</form>
+			</div>
+		</div>
+	</body>
+</html>
