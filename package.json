@@ -1,0 +1,24 @@
+{
+  "name": "registration-task",
+  "version": "1.0.0",
+  "description": "student-registration form",
+  "main": "index.js",
+  "scripts": {
+    "gulp-sass-style": "gulp sass",
+	"gulp-sass-watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deaneric/signup-register.git"
+  },
+  "author": "eric dean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deaneric/signup-register/issues"
+  },
+  "homepage": "https://github.com/deaneric/signup-register#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

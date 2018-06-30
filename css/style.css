@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #0079e2; }
+
+/***********GRID STYLE*******************/
+.grid-container {
+  display: grid;
+  grid-template-areas: '. register .'; }
+
+/***********registration body*******************/
+.register-body {
+  grid-area: register;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  margin: 25px 0 0 0;
+  box-shadow: 0 4px 8px 0 #00ffffc9, 0 6px 30px 4px #00ffff73; }
+  .register-body a {
+    text-decoration: none;
+    color: #0079e2; }
+  .register-body i {
+    transform: translateX(-10px); }
+
+.form-container {
+  margin-bottom: 30px; }
+
+/***********INPUT TAG STYLE*******************/
+.input-tags {
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 0 10px; }
+
+/***********BTN TAG STYLE*******************/
+.btn-submit {
+  width: 90%;
+  height: 45px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #00960075;
+  cursor: no-drop; }
+
+.btn-enabled {
+  cursor: pointer;
+  background-color: #009600; }
+
+/***********PASSWORD STYLE*******************/
+.password-container .password-tick {
+  position: absolute;
+  display: none;
+  transform: translate(10px, 8px); }
+
+.password-container .view-password {
+  display: none;
+  position: absolute;
+  transform: translate(-20px, 8px);
+  color: #808080;
+  cursor: pointer; }
+
+@media (min-width: 320px) {
+  .grid-container {
+    grid-template-columns: 5% 90% 5%; } }
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: 15% 70% 15%; } }
+
+@media (min-width: 1281px) {
+  .grid-container {
+    grid-template-columns: 32% 36% 32%; } }
